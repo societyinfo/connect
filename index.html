@@ -1,241 +1,275 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A community initiative connecting Nepalese professionals, researchers, entrepreneurs, students and community members in Luxembourg.">
-  <meta name="theme-color" content="#102a43">
-  <title>NPRE Luxembourg | Connect. Learn. Share. Grow.</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NPRE Luxembourg — connecting Nepalese professionals, researchers, entrepreneurs and students in Luxembourg.">
+  <title>NPRE Luxembourg | Connect. Share. Grow.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/home.css">
 </head>
+
 <body>
-<header class="site-header">
-  <div class="container nav-wrap">
-    <a class="brand" href="#home" aria-label="NPRE Luxembourg home">
-      <span class="brand-mark">NP</span>
-      <span><strong>NPRE Luxembourg</strong><small>Nepalese Professionals, Researchers & Entrepreneurs</small></span>
-    </a>
-    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
-    <nav class="nav" aria-label="Main navigation">
-      <a href="#about">About</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="NPRE Luxembourg home">
+        <span class="brand-mark">
+          <span class="mark-n">N</span><span class="mark-p">P</span><span class="mark-r">R</span><span class="mark-e">E</span>
+        </span>
+        <span class="brand-name">NPRE <small>Luxembourg</small></span>
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="#community">Community</a>
+        <a href="#activities">What we do</a>
+        <a href="#about">About</a>
+        <a href="join.html" class="nav-cta">Join NPRE</a>
+      </nav>
+
+      <button class="menu-btn" aria-label="Open navigation" onclick="document.body.classList.toggle('menu-open')">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-nav">
       <a href="#community">Community</a>
-      <a href="#language">Language & Culture</a>
-      <a href="#activities">Activities</a>
-      <a href="#involvement">Get involved</a>
-    </nav>
-  </div>
-</header>
+      <a href="#activities">What we do</a>
+      <a href="#about">About</a>
+      <a href="join.html">Join NPRE →</a>
+    </div>
+  </header>
 
-<main id="home">
-  <section class="hero">
-    <div class="container hero-grid">
-      <div class="hero-copy">
-        <span class="eyebrow">A community initiative in Luxembourg</span>
-        <h1>Connect.<br><span>Learn.</span> Share. Grow.</h1>
-        <p class="hero-lead">A platform for people of Nepalese background in Luxembourg to connect across professions, generations and experiences — and to build meaningful bridges with Luxembourg society.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#involvement">Express your interest <span>→</span></a>
-          <a class="btn btn-ghost" href="#about">Discover the idea</a>
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="dot"></span> Nepalese community in Luxembourg</div>
+          <h1>Connecting<br><span>people, ideas</span><br>and opportunities.</h1>
+          <p class="hero-lead">
+            A professional community bringing together Nepalese professionals, researchers, entrepreneurs and students in Luxembourg.
+          </p>
+          <div class="hero-actions">
+            <a href="join.html" class="btn btn-primary">Join the community <span>→</span></a>
+            <a href="#about" class="btn btn-ghost">Discover NPRE</a>
+          </div>
+          <div class="hero-note">
+            <span class="mini-flag">🇳🇵</span>
+            <span class="line"></span>
+            <span class="mini-flag">🇱🇺</span>
+            <span>Building bridges between Nepal and Luxembourg</span>
+          </div>
         </div>
-        <p class="note"><strong>At this stage:</strong> this is an open initiative, not yet a formal organisation.</p>
-      </div>
-      <div class="hero-card">
-        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-        <div class="hero-center"><span>नेपाल</span><strong>LU</strong><small>One community<br>many journeys</small></div>
-        <div class="floating f1">Research</div>
-        <div class="floating f2">Entrepreneurship</div>
-        <div class="floating f3">Languages</div>
-        <div class="floating f4">Mentoring</div>
-      </div>
-    </div>
-  </section>
 
-  <section class="trust-strip">
-    <div class="container strip-grid">
-      <span>Professionals</span><span>Researchers</span><span>Entrepreneurs</span><span>Students</span><span>Families & community</span>
-    </div>
-  </section>
+        <div class="hero-visual" aria-label="NPRE community connection graphic">
+          <div class="visual-ring ring-back"></div>
+          <div class="visual-ring ring-mid"></div>
+          <div class="visual-ring ring-front"></div>
 
-  <section id="about" class="section">
-    <div class="container narrow">
-      <span class="eyebrow">The idea</span>
-      <h2>A space to connect knowledge, experience and people.</h2>
-      <p class="lead">Nepalese people in Luxembourg bring diverse professional, academic, entrepreneurial and life experiences. This initiative explores how we can create a voluntary platform where those experiences can be shared for the benefit of individuals and the wider community.</p>
-      <div class="principles">
-        <article><b>01</b><h3>Community-driven</h3><p>The people who participate should help shape what the initiative becomes.</p></article>
-        <article><b>02</b><h3>Inclusive</h3><p>Open across professions, generations, backgrounds and stages of life.</p></article>
-        <article><b>03</b><h3>Voluntary</h3><p>Contribute as much or as little as you wish. No commitment is required to express interest.</p></article>
-      </div>
-    </div>
-  </section>
+          <div class="country-chip nepal"><span>🇳🇵</span> Nepal</div>
+          <div class="country-chip lux"><span>🇱🇺</span> Luxembourg</div>
 
-  <section id="community" class="section section-soft">
-    <div class="container">
-      <div class="section-heading">
-        <div><span class="eyebrow">Our community</span><h2>Different paths. Shared opportunities.</h2></div>
-        <p>We want to discover the people and expertise already present in Luxembourg before deciding which activities to launch.</p>
-      </div>
-      <div class="cards four">
-        <article class="card"><span class="icon">◌</span><h3>Professionals</h3><p>Connect people working across technology, finance, public administration, engineering, health, education and more.</p></article>
-        <article class="card"><span class="icon">◇</span><h3>Researchers</h3><p>Exchange research ideas, expertise, opportunities, knowledge and links with academia and industry.</p></article>
-        <article class="card"><span class="icon">↗</span><h3>Entrepreneurs</h3><p>Share experience, explore collaboration and support people developing businesses or new ideas.</p></article>
-        <article class="card"><span class="icon">+</span><h3>Students & young people</h3><p>Provide access to role models, mentoring, professional insight and community connections.</p></article>
-      </div>
-    </div>
-  </section>
+          <div class="core">
+            <span class="core-small">THE</span>
+            <strong>NPRE</strong>
+            <span class="core-small">NETWORK</span>
+          </div>
 
-  <section id="language" class="section">
-    <div class="container feature-grid">
-      <div>
-        <span class="eyebrow">First practical initiative</span>
-        <h2>Language & Culture Exchange</h2>
-        <p class="lead">A simple way to start: create opportunities for people who know Nepali to share it, while people who grew up in Luxembourg can share French or Luxembourgish.</p>
-        <div class="language-pairs">
-          <div><strong>नेपाली</strong><span>↔</span><strong>Français</strong></div>
-          <div><strong>नेपाली</strong><span>↔</span><strong>Lëtzebuergesch</strong></div>
-        </div>
-        <p>Rather than starting as a formal language school, the first pilot could be small, friendly conversation groups combined with cultural exchange.</p>
-      </div>
-      <div class="pilot-card">
-        <span class="eyebrow">Possible pilot</span>
-        <h3>90 minutes · 4–8 people</h3>
-        <ul>
-          <li><span>15 min</span> Welcome & introductions</li>
-          <li><span>20 min</span> Language pairing</li>
-          <li><span>30 min</span> Small-group conversation</li>
-          <li><span>15 min</span> Cultural exchange</li>
-          <li><span>10 min</span> Feedback & next steps</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+          <div class="person-card p1">
+            <span class="avatar avatar-blue">P</span>
+            <div><strong>Professionals</strong><small>Connect</small></div>
+          </div>
+          <div class="person-card p2">
+            <span class="avatar avatar-green">R</span>
+            <div><strong>Researchers</strong><small>Share</small></div>
+          </div>
+          <div class="person-card p3">
+            <span class="avatar avatar-orange">E</span>
+            <div><strong>Entrepreneurs</strong><small>Build</small></div>
+          </div>
+          <div class="person-card p4">
+            <span class="avatar avatar-purple">S</span>
+            <div><strong>Students</strong><small>Grow</small></div>
+          </div>
 
-  <section id="activities" class="section section-dark">
-    <div class="container">
-      <div class="section-heading light">
-        <div><span class="eyebrow">What could grow from it?</span><h2>Start small. Build together.</h2></div>
-        <p>These are possibilities, not fixed programmes. The community can decide what is useful.</p>
-      </div>
-      <div class="cards three">
-        <article class="dark-card"><span>01</span><h3>Professional networking</h3><p>Meet people from different sectors, exchange experience and discover opportunities for collaboration.</p></article>
-        <article class="dark-card"><span>02</span><h3>Mentoring</h3><p>Connect students, young professionals and people changing careers with those willing to share experience.</p></article>
-        <article class="dark-card"><span>03</span><h3>Research & innovation</h3><p>Create links between researchers, practitioners, universities, businesses and emerging ideas.</p></article>
-        <article class="dark-card"><span>04</span><h3>Entrepreneurship</h3><p>Share practical knowledge around starting, developing and connecting businesses in Luxembourg.</p></article>
-        <article class="dark-card"><span>05</span><h3>Bridging generations</h3><p>Bring together people born or raised in Luxembourg and those who arrived later in life.</p></article>
-        <article class="dark-card"><span>06</span><h3>Community activities</h3><p>Build social and cultural connections through talks, workshops, visits and informal gatherings.</p></article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container roster">
-      <div>
-        <span class="eyebrow">First step</span>
-        <h2>Let’s discover the expertise already around us.</h2>
-        <p class="lead">Before launching many activities, we would like to build a voluntary community and expertise roster. This will help us understand who is interested, what people know, and where people would like to contribute.</p>
-      </div>
-      <div class="roster-list">
-        <div><span>Languages</span><strong>Nepali · French · Luxembourgish · English · other</strong></div>
-        <div><span>Professional fields</span><strong>ICT · finance · engineering · health · education · public sector · business · more</strong></div>
-        <div><span>Possible contributions</span><strong>Mentoring · talks · language exchange · events · networking · volunteering</strong></div>
-        <div><span>Privacy</span><strong>Your personal details will not be published as a public directory without your consent.</strong></div>
-      </div>
-    </div>
-  </section>
-
-  <section id="involvement" class="section section-soft">
-    <div class="container join-grid">
-      <div>
-        <span class="eyebrow">Invitation to express interest</span>
-        <h2>Would you like to help shape it?</h2>
-        <p class="lead">You do not need to commit to membership or take on a formal role. At this stage, we simply want to hear from people who have ideas, expertise, time, connections — or an interest in being part of the conversation.</p>
-        <div class="check-list">
-          <p>✓ Share an idea or suggestion</p>
-          <p>✓ Add your professional expertise to the voluntary roster</p>
-          <p>✓ Help with the language & culture pilot</p>
-          <p>✓ Offer mentoring or a professional talk</p>
-          <p>✓ Help with communication, website or events</p>
+          <span class="spark s1">✦</span>
+          <span class="spark s2">✦</span>
+          <span class="spark s3">•</span>
         </div>
       </div>
-      <form class="interest-form" id="interestForm"
-      action="https://api.web3forms.com/submit"
-      method="POST">
+    </section>
 
-  <!-- Web3Forms Access Key -->
-  <input type="hidden" name="access_key" value="7deec0be-c383-4bb3-b62f-a010f954d055">
+    <!-- COMMUNITY -->
+    <section id="community" class="section community">
+      <div class="container">
+        <div class="section-heading centered">
+          <div class="eyebrow">WHO WE CONNECT</div>
+          <h2>One community.<br><span>Many perspectives.</span></h2>
+          <p>Different experiences, professions and generations — connected by a shared Nepalese identity and a Luxembourg home.</p>
+        </div>
 
-  <!-- Email subject -->
-  <input type="hidden" name="subject"
-         value="Expression of Interest – NPRE Luxembourg">
+        <div class="audience-grid">
+          <article class="audience-card card-blue">
+            <div class="card-icon">↗</div>
+            <div class="card-number">01</div>
+            <h3>Professionals</h3>
+            <p>Connect with peers, exchange experience and discover new opportunities.</p>
+          </article>
+          <article class="audience-card card-green">
+            <div class="card-icon">⌁</div>
+            <div class="card-number">02</div>
+            <h3>Researchers</h3>
+            <p>Share knowledge, build collaborations and connect research with society.</p>
+          </article>
+          <article class="audience-card card-orange">
+            <div class="card-icon">✦</div>
+            <div class="card-number">03</div>
+            <h3>Entrepreneurs</h3>
+            <p>Exchange ideas, find partners and create new possibilities together.</p>
+          </article>
+          <article class="audience-card card-purple">
+            <div class="card-icon">＋</div>
+            <div class="card-number">04</div>
+            <h3>Students</h3>
+            <p>Meet role models, find guidance and build your professional network.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-  <!-- Name shown as sender/source -->
-  <input type="hidden" name="from_name"
-         value="NPRE Luxembourg Website">
+    <!-- VISUAL ECOSYSTEM -->
+    <section id="activities" class="section ecosystem">
+      <div class="container ecosystem-grid">
+        <div class="ecosystem-copy">
+          <div class="eyebrow">THE NPRE ECOSYSTEM</div>
+          <h2>From a simple<br><span>connection</span> to<br>lasting impact.</h2>
+          <p>NPRE creates spaces where people can meet, exchange knowledge, support each other and turn ideas into action.</p>
+          <a href="join.html" class="text-link">Be part of it <span>→</span></a>
+        </div>
 
-  <!-- Spam protection -->
-  <input type="checkbox" name="botcheck"
-         style="display:none;">
+        <div class="ecosystem-visual">
+          <div class="eco-line line-a"></div>
+          <div class="eco-line line-b"></div>
+          <div class="eco-line line-c"></div>
+          <div class="eco-line line-d"></div>
+          <div class="eco-center"><span>NPRE</span><small>Luxembourg</small></div>
 
-  <label>
-    Name
-    <input name="name" required autocomplete="name">
-  </label>
+          <div class="eco-node node-top"><b>CONNECT</b><small>People</small></div>
+          <div class="eco-node node-right"><b>COLLABORATE</b><small>Ideas</small></div>
+          <div class="eco-node node-bottom"><b>GROW</b><small>Talent</small></div>
+          <div class="eco-node node-left"><b>SHARE</b><small>Knowledge</small></div>
+        </div>
+      </div>
+    </section>
 
-  <label>
-    Email
-    <input type="email" name="email" required autocomplete="email">
-  </label>
+    <!-- WHAT WE DO -->
+    <section class="section activities">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">WHAT WE DO</div>
+          <h2>Small actions.<br><span>Real connections.</span></h2>
+        </div>
 
-  <label>
-    How would you like to contribute?
-    <select name="interest">
-      <option>Share ideas / stay informed</option>
-      <option>Professional expertise roster</option>
-      <option>Language & culture exchange</option>
-      <option>Mentoring</option>
-      <option>Research & innovation</option>
-      <option>Entrepreneurship</option>
-      <option>Events / communication / website</option>
-      <option>Other</option>
-    </select>
-  </label>
+        <div class="activity-list">
+          <div class="activity-row">
+            <span class="activity-icon">01</span>
+            <div><h3>Networking</h3><p>Meet people across professions, generations and sectors.</p></div>
+            <span class="activity-arrow">↗</span>
+          </div>
+          <div class="activity-row">
+            <span class="activity-icon">02</span>
+            <div><h3>Knowledge & mentoring</h3><p>Share experience, support students and learn from one another.</p></div>
+            <span class="activity-arrow">↗</span>
+          </div>
+          <div class="activity-row">
+            <span class="activity-icon">03</span>
+            <div><h3>Research & innovation</h3><p>Create bridges between research, industry and the wider community.</p></div>
+            <span class="activity-arrow">↗</span>
+          </div>
+          <div class="activity-row">
+            <span class="activity-icon">04</span>
+            <div><h3>Entrepreneurship</h3><p>Turn connections and ideas into collaboration and opportunities.</p></div>
+            <span class="activity-arrow">↗</span>
+          </div>
+          <div class="activity-row">
+            <span class="activity-icon">05</span>
+            <div><h3>Language & culture</h3><p>Encourage cultural exchange and language learning between communities.</p></div>
+            <span class="activity-arrow">↗</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <label>
-    Message
-    <textarea name="message" rows="5"
-      placeholder="Tell us a little about your interests or ideas (optional)"></textarea>
-  </label>
+    <!-- BRIDGE -->
+    <section class="bridge">
+      <div class="container bridge-inner">
+        <div class="bridge-country"><span>🇳🇵</span><strong>Nepal</strong><small>Roots</small></div>
+        <div class="bridge-road">
+          <span>PEOPLE</span><i></i><span>KNOWLEDGE</span><i></i><span>IDEAS</span>
+        </div>
+        <div class="bridge-country"><span>🇱🇺</span><strong>Luxembourg</strong><small>Home</small></div>
+      </div>
+    </section>
 
-  <button class="btn btn-primary" type="submit">
-    Submit my expression of interest <span>→</span>
-  </button>
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="container about-grid">
+        <div>
+          <div class="eyebrow">WHY NPRE</div>
+          <h2>A community built<br><span>by people, for people.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p class="large">NPRE Luxembourg is intended as a space for Nepalese professionals, researchers, entrepreneurs and students to connect, contribute and grow together.</p>
+          <div class="principles">
+            <div><span>01</span><b>Connect</b><small>Build meaningful relationships.</small></div>
+            <div><span>02</span><b>Share</b><small>Exchange knowledge and experience.</small></div>
+            <div><span>03</span><b>Support</b><small>Help the next generation move forward.</small></div>
+            <div><span>04</span><b>Build</b><small>Create opportunities together.</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <p class="form-note">
-    Thank you for your interest in NPRE Luxembourg.
-    Your message will be sent to the society team.
-  </p>
+    <!-- CTA -->
+    <section class="final-cta">
+      <div class="cta-shape shape-one"></div>
+      <div class="cta-shape shape-two"></div>
+      <div class="container cta-content">
+        <div class="eyebrow light">YOUR PLACE IN THE COMMUNITY</div>
+        <h2>Your experience<br><span>can make a difference.</span></h2>
+        <p>Whether you are a professional, researcher, entrepreneur or student — there is a place for you in NPRE.</p>
+        <a href="join.html" class="btn btn-white">Join NPRE Luxembourg <span>→</span></a>
+      </div>
+    </section>
+  </main>
 
-</form>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="brand-mark small-mark"><span class="mark-n">N</span><span class="mark-p">P</span><span class="mark-r">R</span><span class="mark-e">E</span></div>
+        <strong>NPRE Luxembourg</strong>
+        <p>Connecting people, ideas and opportunities.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#community">Community</a>
+        <a href="#activities">What we do</a>
+        <a href="#about">About</a>
+        <a href="join.html">Join NPRE</a>
+      </div>
     </div>
-  </section>
-
-  <section class="section closing">
-    <div class="container closing-inner">
-      <span class="eyebrow">An open beginning</span>
-      <h2>People first. Activities second. Organisation later.</h2>
-      <p>We can decide together what this initiative should become once we understand the community’s interest, needs and capacity.</p>
-      <a class="btn btn-primary" href="#involvement">Express your interest <span>→</span></a>
+    <div class="container footer-bottom">
+      <span>© 2026 NPRE Luxembourg</span>
+      <span>Built to connect. Built to contribute.</span>
     </div>
-  </section>
-</main>
+  </footer>
 
-<footer class="footer">
-  <div class="container footer-grid">
-    <div><strong>NPRE Luxembourg</strong><p>Nepalese Professionals, Researchers & Entrepreneurs in Luxembourg</p></div>
-    <div><p>Community initiative · Luxembourg</p><p><a href="#about">About</a> · <a href="#involvement">Get involved</a></p></div>
-  </div>
-  <div class="container footer-bottom"><span>© <span id="year"></span> NPRE Luxembourg</span><span>Connect. Learn. Share. Grow.</span></div>
-</footer>
-<script src="js/script.js"></script>
+  <script>
+    document.querySelectorAll('.mobile-nav a').forEach(link => {
+      link.addEventListener('click', () => document.body.classList.remove('menu-open'));
+    });
+  </script>
 </body>
 </html>
