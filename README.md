@@ -1,8 +1,8 @@
-# NPRE Luxembourg — Website v1.0
+# SPRE Luxembourg — Website v1.0
 
 Static GitHub Pages-ready website for the community initiative:
 
-**Nepalese Professionals, Researchers & Entrepreneurs in Luxembourg**
+**Society for Professionals, Researchers & Entrepreneurs in Luxembourg**
 
 Tagline: **Connect. Learn. Share. Grow.**
 
