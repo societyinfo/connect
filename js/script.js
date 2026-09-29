@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   form?.addEventListener("submit", (e) => {
     e.preventDefault();
     const data = new FormData(form);
-    const subject = encodeURIComponent("Expression of interest – NPRE Luxembourg");
+    const subject = encodeURIComponent("Expression of interest – SPRE Luxembourg");
     const body = encodeURIComponent(
       `Name: ${data.get("name")}\nEmail: ${data.get("email")}\nInterest: ${data.get("interest")}\n\nMessage:\n${data.get("message") || ""}`
     );
