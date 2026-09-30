@@ -120,3 +120,4 @@ a{text-decoration:none;color:inherit}
 @media(max-width:600px){
   .container{width:min(100% - 30px,1160px)}.hero h1{font-size:46px}.hero-lead{font-size:16px}.hero-visual{height:400px;transform:scale(.86);margin:-25px -40px}.audience-grid{grid-template-columns:1fr}.audience-card{min-height:230px}.section{padding:80px 0}.section-heading{margin-bottom:35px}.section-heading h2{font-size:39px}.ecosystem-visual{transform:scale(.78);margin:-50px -50px}.activity-row{grid-template-columns:42px 1fr 25px;gap:10px}.activity-row h3{font-size:17px}.activity-row p{font-size:12px}.bridge-inner{grid-template-columns:75px 1fr 75px;gap:8px}.bridge-road{gap:7px;font-size:7px}.bridge-country strong{font-size:13px}.final-cta{padding:80px 0}.final-cta h2{font-size:43px}.footer-bottom{flex-direction:column;gap:8px}
 }
+<a href="activities.html" class="active"> Activities & Events </a>
